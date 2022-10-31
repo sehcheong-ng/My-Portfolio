@@ -29,7 +29,7 @@ header {
 }
 
 #name {
-    font-size: 50px;
+    font-size: 70px;
 }
 
 h2 {
@@ -55,6 +55,14 @@ main {
 #about_me {
     display: grid;
     grid-template-columns: 1fr 2fr;
+}
+
+
+.main_div h2 {
+    text-align: right;
+    padding : 30px;
+    margin-right: 20px;
+    border-right: 5px solid;
 }
 
 
@@ -93,41 +101,61 @@ main {
     "art1 art1"
     "art2 art3"
     "art4 art5";
-    gap: 10px;
+    gap: 20px;
 }
 
 
 #a1 {
     grid-area: art1;
-    background-image: url(../images/02-portfolio-1.jpg);
+    background-image: url(../images/jake_eatery.png);
+    background-repeat: no-repeat;
+    display: flex;
 }
 
 #a2 {
     grid-area: art2;
-    background-image: url(../images/02-portfolio-2.jpg);
+    background-image: url(../images/Horiseon.png);
+    background-repeat: no-repeat;
+    display: flex;
 }
 
 #a3 {
     grid-area: art3;
-    background-image: url(../images/02-portfolio-3.jpg);
+    background-image: url(../images/Prework.png);
+    background-repeat: no-repeat;
+    display: flex;
 }
 
 #a4 {
     grid-area: art4;
     background-image: url(../images/02-portfolio-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
 }
 
 #a5 {
     grid-area: art5;
     background-image: url(../images/02-run-buddy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
 }
 
 .work a:hover {
     opacity: .5;
 }
 
+.work a {
+    text-decoration: none;
+}
 
-
+.text-box {
+    background-color: rgb(0, 162, 255);
+    width: 80px;
+    justify-content: flex-end;
+    align-self: center;
+}
 
 
 footer {
