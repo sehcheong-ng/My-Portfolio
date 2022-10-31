@@ -33,7 +33,7 @@ header {
 }
 
 h2 {
-    font-size: 70px;
+    font-size: 60px;
 }
 
 /* Push the navbar to far right evenly */
@@ -49,7 +49,7 @@ main {
     /* grid-column: 1 / 4; */
     display: grid;
     /* grid-template-columns: 1fr 3fr; */
-    min-height: 3000px;
+    min-height: 2500px;
 }
 
 #about_me {
@@ -57,6 +57,11 @@ main {
     grid-template-columns: 1fr 2fr;
 }
 
+.about {
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-top: 60px;
+}
 
 .main_div h2 {
     text-align: right;
@@ -102,6 +107,7 @@ main {
     "art2 art3"
     "art4 art5";
     gap: 20px;
+    
 }
 
 
@@ -109,6 +115,7 @@ main {
     grid-area: art1;
     background-image: url(../images/jake_eatery.png);
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
 }
 
@@ -116,6 +123,7 @@ main {
     grid-area: art2;
     background-image: url(../images/Horiseon.png);
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
 }
 
@@ -123,6 +131,7 @@ main {
     grid-area: art3;
     background-image: url(../images/Prework.png);
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
 }
 
@@ -131,6 +140,7 @@ main {
     background-image: url(../images/02-portfolio-4.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
 }
 
@@ -139,6 +149,7 @@ main {
     background-image: url(../images/02-run-buddy.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
 }
 
