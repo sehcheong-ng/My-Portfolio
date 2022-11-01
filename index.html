@@ -9,8 +9,8 @@
 </head>
 <body>
     <header>
-        <img src="./images/cat-avatar.png" alt="">
-        <h1 id="name">Seh Cheong NG</h1>
+        <img id="cat" src="./images/cat-avatar.png" alt="">
+        <h1 id="name">Seh-Cheong NG</h1>
         <nav>
             <a href="#about_me">About Me</a>
             <a href="#work">Work</a>
@@ -21,9 +21,8 @@
 
     <main>
         <div class="main_div" id="about_me">
-            
             <h2>About</h2>
-            <section class="about">
+            <section class="about long_text" >
                 Hi, I'm Seh Cheong NG, and I graduated from the University of Birmingham in 2015 with a degree in Life Science. My interests are in Front End Engineering, and I love to create beautiful and performant products with delightful user experiences.
                 I previously worked at Company X, where I led the XYZ project. XYZ was a service for companies to make urban transportation expenses convenient. Companies can create employee groups, set ride policies, and share corporate payment methods with their employees.
                 I built the project with two other engineers over the period of three months using Python and SQL.
@@ -95,7 +94,7 @@
                     width="100" height="100">
                 </a>
 
-                <a href="#">
+                <a href="mailto:abc@gmail.com">
                     <img class="contact_img" src="./images/email.png" alt="email"
                     width="100" height="100">
                 </a>
@@ -104,7 +103,7 @@
 
         <div class="main_div" id="resume">
             <h2>Resume</h2>
-            <section>
+            <section  class="long_text">
                 Job Searching Web Service, MEAN Stack
                 July 2018October 2018
                 Implemented the Job Searching Web Service with NodeJS, MongoDB, Angular 5, NGRX and Bootstrap. Integrated the user authentication with Github Oauth2 apps to support third-party accounts login.
@@ -116,7 +115,10 @@
         </div>
     </main>
 
-    <div class="top">Top</div>
+    <a href="#cat">
+        <button id="myBtn">Top</button>
+    </a>
+    
 
     <footer>&copy;2022</footer>
 </body>
