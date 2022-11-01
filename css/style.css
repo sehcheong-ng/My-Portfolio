@@ -15,9 +15,6 @@ html, body {
 and main part size auto */
 body {
     background-color: #ADD8E6;
-    /* display: grid; */
-    /* grid-template-columns: 1fr 1fr 1fr; */
-    /* grid-template-rows: 50px auto 50px; */
 }
 
 /* Split header into 2 columns and  */
@@ -101,19 +98,6 @@ main {
     font-size: 40px;
 }
 
-/* h2 {
-    grid-column: 1/2;
-    height: auto;
-} */
-
-/* section {
-    grid-column: 2/4;
-} */
-
-/* .about {
-    align-self: flex-start;
-} */
-
 .work {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -192,8 +176,13 @@ main {
 }
 
 
-#resume {
+#resume section{
     font-family: sans-serif;
+}
+
+.top {
+    position: fixed;
+    height: 100px;
 }
 
 footer {
@@ -204,47 +193,6 @@ footer {
 
 
 
-/* .about_class{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    align-items: center;
-
-}
-
-
-div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    "art1 art1"
-    "art2 art3"
-    "art4 art5";
-}
-
-#art1 {
-    grid-area: art1;
-    background-image: url(../starter/images/02-portfolio-2.jpg);
-}
-
-#art2 {
-    grid-area: art2;
-    background-image: url(../starter/images/02-portfolio-3.jpg);
-}
-
-#art3 {
-    grid-area: art3;
-    background-image: url(../starter/images/02-portfolio-4.jpg);
-}
-
-#art4 {
-    grid-area: art4;
-    background-image: url(../starter/images/02-run-buddy.jpg);
-}
-
-#art5 {
-    grid-area: art5;
-    background-image: url(../starter/images/02-portfolio-1.jpg);
-} */
 footer {
     grid-column: 1 / 3;
 }
