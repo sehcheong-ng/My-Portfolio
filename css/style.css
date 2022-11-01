@@ -14,7 +14,7 @@ html, body {
 /* Give a basic grid layout and make header and footer fixed size 
 and main part size auto */
 body {
-    background-color: #555;
+    background-color: #ADD8E6;
     /* display: grid; */
     /* grid-template-columns: 1fr 1fr 1fr; */
     /* grid-template-rows: 50px auto 50px; */
@@ -40,7 +40,15 @@ h2 {
 nav {
     display: flex;
     justify-content: space-around;
-    font-size: 30px;
+    font-size: 50px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 
@@ -58,14 +66,14 @@ main {
 }
 
 .about {
-    font-size: 30px;
+    font-size: 40px;
     font-family: sans-serif;
     padding-top: 60px;
 }
 
 .main_div h2 {
-    text-align: right;
-    padding : 30px;
+    text-align: center;
+    padding : 40px;
     margin-right: 20px;
     border-right: 5px solid;
 }
@@ -81,9 +89,16 @@ main {
     grid-template-columns: 1fr 2fr;
 }
 
+
+
+
 #resume {
     display: grid;
     grid-template-columns: 1fr 2fr;
+}
+
+#resume section {
+    font-size: 40px;
 }
 
 /* h2 {
@@ -159,18 +174,31 @@ main {
 
 .work a {
     text-decoration: none;
+    font-size: 25px;
+    font-family: sans-serif;
+    border: 10px solid rgb(231, 238, 133);
 }
 
 .text-box {
-    background-color: rgb(0, 162, 255);
-    width: 80px;
+    background-color: #add8e6;
+    width: 120px;
     justify-content: flex-end;
     align-self: center;
+
+}
+
+.contact a img:hover {
+    opacity: .5;
 }
 
 
+#resume {
+    font-family: sans-serif;
+}
+
 footer {
     grid-column: 1 / 4;
+    font-family: sans-serif;
 }
 
 
